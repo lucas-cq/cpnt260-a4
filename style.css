@@ -38,11 +38,11 @@ nav a {
   padding: 4px 25px;
   border-radius: 12px;
   color: white;
+  transition-duration: 0.4s;
 }
 
 nav a:hover {
   background-color: #737373;
-  transition: 0.3s;
 }
 
 
@@ -77,7 +77,7 @@ nav li {
   background-image: url(assets/pavel-anoshin-YhNhS1HPEvk-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 90vh;
   width: 100%;
 }
 
@@ -85,8 +85,9 @@ nav li {
   color: whitesmoke;
   background-color: hsla(1, 10%, 10%, 0.8);
   padding: 15px 20px 15px 20px;
-  margin: auto 20px auto 20px;
+  margin: 40px 20px auto 20px;
   border-radius: 20px;
+  border: 1px solid black;
 }
 
 .hero-pic p {
@@ -98,6 +99,7 @@ nav li {
   color: whitesmoke;
   font-family: 'Lato', sans-serif;
   background-color: hsla(1, 10%, 10%, 0.8);
+  border: 1px solid black;
 }
 
 .hero-pic button {
@@ -128,9 +130,9 @@ h1 {
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 45px;
   font-family: 'Teko', sans-serif;
-  margin: 5px;
+  margin: 25px auto 5px auto;
   padding-bottom: 0px;
 }
 
@@ -152,7 +154,7 @@ h3 {
 
 .article-text {
   font-size: 20px;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 30px 0px;
   padding: 0 auto;
   line-height: 50px;
 }
@@ -161,6 +163,10 @@ h3 {
   font-size: 20px;
   margin: 0px 60px 10px 30px;
   padding: 0 auto;
+}
+
+.article-text p {
+  font-family: 'Lato', sans-serif;
 }
 
 /* ****** */
@@ -266,6 +272,7 @@ form h2 {
   padding: 13px;
   margin-top: 30px;
   margin-bottom: 30px;
+  transition-duration: 0.4s;
 }
 
 /* ***** */
@@ -273,7 +280,7 @@ form h2 {
 /* ***** */
 
 .vid-box {
-  width: 100vw;
+  width: 90vw;
   display: flex;
   justify-content: center;
   align-content: center;
