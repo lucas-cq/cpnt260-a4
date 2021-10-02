@@ -83,7 +83,7 @@ nav li {
 
 .hero-pic h1 {
   color: whitesmoke;
-  background-color: hsla(1, 10%, 10%, 0.6);
+  background-color: hsla(1, 10%, 10%, 0.8);
   padding: 15px 20px 15px 20px;
   margin: auto 20px auto 20px;
   border-radius: 20px;
@@ -97,7 +97,7 @@ nav li {
   border-radius: 20px;
   color: whitesmoke;
   font-family: 'Lato', sans-serif;
-  background-color: hsla(1, 10%, 10%, 0.6);
+  background-color: hsla(1, 10%, 10%, 0.8);
 }
 
 .hero-pic button {
@@ -107,11 +107,13 @@ nav li {
   border-radius: 20px;
   color: black;
   border-style: none;
+  transition-duration: 0.4s;
+  border: 3px solid #ff2643;
+  margin-top: 35px;
 }
 
 button:hover {
   background-color: #ff2643;
-  transition: all 0.3s ease-in-out;
 }
 
 /* **** */
@@ -264,4 +266,16 @@ form h2 {
   padding: 13px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+/* ***** */
+/* Video */
+/* ***** */
+
+.vid-box {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 30px auto 30px auto;
 }
