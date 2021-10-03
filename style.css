@@ -144,20 +144,17 @@ h3 {
   padding: 0 auto;
 }
 
-.text-section {
+.article-text {
+  font-size: 20px;
+  margin: 0px 0px 30px 0px;
+  padding: 0 auto;
+  line-height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
   max-width: 100ch;
-}
-
-.article-text {
-  font-size: 20px;
-  margin: 0px 0px 30px 0px;
-  padding: 0 auto;
-  line-height: 50px;
 }
 
 .article-list {
