@@ -286,3 +286,36 @@ form h2 {
   align-content: center;
   margin: 30px auto 30px auto;
 }
+
+/* ****** */
+/* Mobile */
+/* ****** */
+
+@media screen and (max-width: 600px) {
+  .article-text {
+    font-size: 16px;
+    margin: auto 15px auto 15px;
+  }
+  .hero-pic h1 {
+    font-size: 50px;
+  }
+  .hero-pic p {
+    font-size: 20px
+  }
+  .footer-logo {
+    width: 40px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .hero-pic {
+    height: 60vh;
+    background-image: url(assets/anastase-maragos-UZOUVADKq2g-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+}
