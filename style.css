@@ -291,6 +291,10 @@ form h2 {
 /* Mobile */
 /* ****** */
 
+nav i {
+  font-size: 0px;
+}
+
 @media screen and (max-width: 600px) {
   .article-text {
     font-size: 16px;
@@ -317,5 +321,14 @@ form h2 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+  }
+  
+  nav ul {
+    display: none;
+  }
+
+  nav i {
+    font-size: 40px;
+    margin-top: 40px;
   }
 }
